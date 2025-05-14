@@ -18,6 +18,6 @@ public class StringBufferHandling {
         StringBuffer s3= new StringBuffer(ori1);
         System.out.println("Appended string: "+s4.append(s3));
         StringBuffer s5= new StringBuffer(s4.append(s3));
-        System.out.println("Capacity of StringBuffer object sb2: "+s5.capacity());
+        System.out.println("Capacity of StringBuffer object s5: "+s5.capacity());
     }
 }
